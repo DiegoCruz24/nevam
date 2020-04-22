@@ -47,7 +47,7 @@
 }
 .container-solutions-footer{
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     box-sizing: border-box;
     width: 100%;
 }

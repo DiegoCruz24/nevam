@@ -1,6 +1,6 @@
 import React from "react";
 import '../../Styles/Footer/FooterStyles.css';
-import FooterLogo from '../../Assets/Images/Footer/Logoblanco.png';
+import FooterLogo from '../../Assets/Images/Footer/Logohorizontalblanco.png';
 
 export default class Footer extends React.Component{
     constructor(props){
@@ -10,9 +10,13 @@ export default class Footer extends React.Component{
     render() {
         return(
             <div className={"container-footer"}>
-                <img src={FooterLogo} alt=""/>
-                <p>contacto@nevamsoft.com</p>
-                <p>&copy; 2020 Nevam Software - todos los derechos reservados</p>
+                <div className={"copyright"} align={"left"}>
+                    <img src={FooterLogo} alt=""/>
+                    <p>&copy; 2020 Nevam Software - todos los derechos reservados</p>
+                </div>
+                <div className={"contact"} align={"right"}>
+                    <p>contacto@nevamsoft.com</p>
+                </div>
             </div>
         );
     }
