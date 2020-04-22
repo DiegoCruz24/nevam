@@ -13,11 +13,16 @@
     color: gray;
     width: 100%;
 }
+.text-blue-solution{
+    font-family: MontserratBlack, sans-serif;
+    font-size: 30px;
+    color: #1d6dc2;
+}
 .container-solutions-title p{
     display: inline-block;
-    width: 470px;
+    width: 600px;
     font-size: 25px;
-    font-family: MontserrarMedium, sans-serif;
+    font-family: MontserratRegular, sans-serif;
 }
 .container-solutions-info{
     width: 900px;
