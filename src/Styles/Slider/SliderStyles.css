@@ -18,27 +18,30 @@
     width: 100%;
     max-width: 100%;
 }
-.legend{
+.legends{
     position: absolute;
     top: 25%;
     left: 15%;
     width: 500px;
     height: 300px;
 }
-.legend-title{
-    font-size: 25px;
+.legends-title{
+    font-size: 30px;
     color: white;
     font-family: MontserratLight, sans-serif;
+    text-align: left;
 }
-.legend-title span{
+.legends-title span{
     font-family: MontserratBlack, sans-serif;
-    font-size: 35px !important;
+    font-size: 40px !important;
+    text-align: left;
 }
-.legend-text{
+.legends-text{
     font-size: 14px;
     color: white;
     margin-top: 10px;
     font-family: MontserratLight, sans-serif;
+    text-align: left
 }
 @keyframes slider {
     0% { left: 0%; }
