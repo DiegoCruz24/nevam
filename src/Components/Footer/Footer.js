@@ -16,6 +16,7 @@ export default class Footer extends React.Component{
                 </div>
                 <div className={"contact"} align={"right"}>
                     <p>contacto@nevamsoft.com</p>
+                    <p>Juan de la Barrera, Edificio C-2, Departamento 102, Generalísimo José María Morelos y Pavón, Cuaititlán Izcalli</p>
                 </div>
             </div>
         );
