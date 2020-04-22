@@ -43,6 +43,10 @@
     font-family: MontserratLight, sans-serif;
     text-align: left
 }
+.carousel .control-dots .dot{
+    width: 12px !important;
+    height: 12px !important;
+}
 @keyframes slider {
     0% { left: 0%; }
     20% { left: 0%; }
