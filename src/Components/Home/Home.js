@@ -31,14 +31,14 @@ export default class Home extends React.Component{
                     </div>
                 </div>
 
-                {/*}
+
                 <div className="container-home-slider">
                     <Slider/>
                 </div>
 
                 <div className="container-home-solutions">
                     <Solutions/>
-                </div>*/}
+                </div>
             </div>
         );
     }
