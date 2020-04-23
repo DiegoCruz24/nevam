@@ -44,8 +44,8 @@
     text-align: left
 }
 .carousel .control-dots .dot{
-    width: 12px !important;
-    height: 12px !important;
+    width: 15px !important;
+    height: 15px !important;
 }
 @keyframes slider {
     0% { left: 0%; }

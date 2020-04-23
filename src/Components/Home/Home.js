@@ -1,5 +1,5 @@
 import React from "react";
-import FondoHEader from '../../Assets/Images/Fondo1.png';
+import FondoHEader from '../../Assets/Images/fondo1.jpg';
 import '../../Styles/Home/HomeStyles.css';
 import Slider from "../Slider/Slider";
 import Solutions from "../Solutions/Solutions";
@@ -31,13 +31,14 @@ export default class Home extends React.Component{
                     </div>
                 </div>
 
+                {/*}
                 <div className="container-home-slider">
                     <Slider/>
                 </div>
 
                 <div className="container-home-solutions">
                     <Solutions/>
-                </div>
+                </div>*/}
             </div>
         );
     }
