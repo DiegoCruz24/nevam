@@ -109,8 +109,8 @@
     .container-header-logo-tabs{
         right: 10%;
     }
-    .container-header-logo-tabs p{
-        font-size: 12px;
+    .container-header-logo-tabs a{
+        font-size: 13px;
     }
 }
 @media only screen and (min-width: 1600px) and (max-width: 2299px){
