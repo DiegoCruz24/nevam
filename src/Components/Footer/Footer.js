@@ -10,9 +10,15 @@ export default class Footer extends React.Component{
     render() {
         return(
             <div className={"container-footer"}>
-                <img src={FooterLogo} alt=""/>
-                <p>contacto@nevamsoft.com</p>
-                <p>&copy; 2020 Nevam Software - todos los derechos reservados</p>
+                <div className={"container-footer-logo"} align={"center"}>
+                    <img src={FooterLogo} alt=""/>
+                </div>
+                <div className="copyright" align={"left"}>
+                    <p>&copy; 2020 Nevam Software - todos los derechos reservados</p>
+                </div>
+                <div className={"contact"} align={"right"}>
+                    <p>contacto@nevamsoft.com</p>
+                </div>
             </div>
         );
     }
