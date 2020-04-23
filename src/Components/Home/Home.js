@@ -35,10 +35,12 @@ export default class Home extends React.Component{
                 <div className="container-home-slider">
                     <Slider/>
                 </div>
+                <div id="servicio"></div>
 
-                <div className="container-home-solutions">
+                <div className="container-home-solutions" id={"prueba"}>
                     <Solutions/>
                 </div>
+                <div id="contacto"></div>
             </div>
         );
     }

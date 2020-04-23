@@ -15,8 +15,8 @@ export default class Header extends React.Component{
                 <div className={"container-header-logo"}>
                     <img src={LogoNevam} alt=""/>
                     <div className="container-header-logo-tabs">
-                        <p>Servicios</p>
-                        <p>Contactanos</p>
+                        <a href={"#servicio"}>Servicios</a>
+                        <a href={"#contacto"}>Contacto</a>
                     </div>
                 </div>
             </div>
