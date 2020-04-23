@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: MontserratBlack;
@@ -136,18 +137,19 @@
 @media only screen and (min-width: 1400px) and (max-width: 1800px){
     .container-home-header-info{
         width: 700px;
+        bottom: 250px;
     }
     .container-home-header-info-title p{
-        font-size: 50px;
+        font-size: 30px;
     }
     .text-blue{
-        font-size: 60px;
+        font-size: 40px;
     }
     .container-home-header-info-text{
         width: 100%;
     }
     .container-home-header-info-text p{
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 @media only screen and (min-width: 1801px) and (max-width: 3999px){
