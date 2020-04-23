@@ -53,7 +53,7 @@ export default class Slider extends React.Component{
                infiniteLoop={true}
                autoPlay={true}
                width={"100%"}
-               interval={3000}
+               interval={6000}
            >
                <div>
                    <img src={Image1} />
