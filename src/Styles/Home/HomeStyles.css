@@ -14,6 +14,10 @@
     font-family: MontserrarMedium;
     src: url("../../Assets/Fonts/montserrat/Montserrat-Medium.otf");
 }
+@font-face {
+    font-family: MontserratRegular;
+    src: url("../../Assets/Fonts/montserrat/Montserrat-Regular.otf");
+}
 
 .container-home{
     width: 100%;
@@ -32,19 +36,9 @@
     left: 0;
     height: 100%;
 }
-.container-home-header-logo{
-    position: absolute;
-    width: 300px;
-    left: 150px;
-    top: 70px;
-}
-.container-home-header-logo img{
-    width: 300px;
-    height: auto;
-}
 .container-home-header-info{
     position: absolute;
-    bottom: 200px;
+    bottom: 220px;
     left: 150px;
 }
 .container-home-header-info-title p{
@@ -53,9 +47,10 @@
     color: gray;
     font-weight: 300;
     font-family: MontserratLight, sans-serif;
+    width: 500px;
 }
 .text-blue{
-    color: rgb(50,0,255);
+    color: #1d6dc2;
     font-size: 30px;
     font-weight: 800;
     font-family: MontserratBlack, sans-serif;
@@ -65,10 +60,11 @@
     margin-top: 10px;
 }
 .container-home-header-info-text p{
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
     text-align: left;
     font-family: MontserratLight, sans-serif;
+    width: 550px;
 }
 
 /*sliderHOME*/
@@ -83,14 +79,6 @@
     .container-home-header{
         width: 100%;
         box-sizing: border-box;
-    }
-    .container-home-header-logo{
-        left: 5%;
-        top: 20px;
-    }
-    .container-home-header-logo img{
-        width: 100px;
-        height: 40px;
     }
     .container-home-header-info{
         left: 5%;
@@ -107,14 +95,6 @@
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px){
-    .container-home-header-logo{
-        left: 5%;
-        top: 30px;
-    }
-    .container-home-header-logo img{
-        width: 150px;
-        height: 50px;
-    }
     .container-home-header-info{
         left: 5%;
         bottom: 40px;
@@ -122,14 +102,6 @@
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1199px){
-    .container-home-header-logo{
-        left: 5%;
-        top: 20px;
-    }
-    .container-home-header-logo img{
-        width: 200px;
-        height: 70px;
-    }
     .container-home-header-info{
         left: 5%;
         bottom: 20%;
@@ -163,11 +135,6 @@
     }
 }
 @media only screen and (min-width: 1801px) and (max-width: 3999px){
-    .container-home-header-logo,
-    .container-home-header-logo img{
-        width: 500px;
-        height: 100px;
-    }
     .container-home-header-info-title p{
         font-size: 70px;
     }
@@ -182,11 +149,6 @@
     }
 }
 @media only screen and (min-width: 4000px){
-    .container-home-header-logo,
-    .container-home-header-logo img{
-        width: 900px;
-        height: 200px;
-    }
     .container-home-header-info{
         bottom: 30%;
     }

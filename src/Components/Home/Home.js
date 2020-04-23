@@ -1,9 +1,9 @@
 import React from "react";
 import FondoHEader from '../../Assets/Images/Fondo1.png';
 import '../../Styles/Home/HomeStyles.css';
-import LogoNevam from '../../Assets/Images/Logohorizontal.png';
 import Slider from "../Slider/Slider";
 import Solutions from "../Solutions/Solutions";
+import Header from "../Header/Header";
 
 export default class Home extends React.Component{
     constructor(props){
@@ -14,20 +14,18 @@ export default class Home extends React.Component{
         return(
             <div className="container-home">
                 <div className="container-home-header">
+                    <Header/>
                     <img src={FondoHEader} alt="navem"/>
-                    <div className="container-home-header-logo">
-                        <img src={LogoNevam} alt=""/>
-                    </div>
                     <div className="container-home-header-info">
                         <div className="container-home-header-info-title">
-                            <p>Desarrollamos <span className={"text-blue"}>soluciones</span> </p>
-                            <p>para <span className={"text-blue"}>cada</span> necesidad</p>
+                            <p>Damos <span className={"text-blue"}>soluciones innovadoras</span> </p>
+                            <p>para <span className={"text-blue"}>todas</span> tus necesidades</p>
                         </div>
                         <div className="container-home-header-info-text">
-                            <p>Somos un equipo altamente competitivo, dedicado al desarrollo de software; con altos
-                                niveles de compromiso y lealtad, utilizamos todo nuestro expertise en cada proyecto.
-                                Todas nuestras áreas están capacitadas para atender las necesidades y solucionar las
-                                necesidades de nuestros clientes.
+                            <p>Somos una empresa que desarrolla soluciones creativas y a tu medida. Te ahorramos
+                                recursos económicos, tiempo y esfuerzo, y además, te garantizamos soluciones amigables,
+                                fáciles de usar y exclusivas para tu empresa. ¿Te interesa saber mas de nosotros?
+                                contactanos y descubre, sin compromiso, todo lo que podemos hacer por ti.
                             </p>
                         </div>
                     </div>
