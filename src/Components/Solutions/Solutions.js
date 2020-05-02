@@ -1,5 +1,5 @@
 import React from "react";
-import SolutionsBack from '../../Assets/Images/Solutions/Fondo2.png';
+import SolutionsBack from '../../Assets/Images/Solutions/Fondo2.jpg';
 import '../../Styles/Solutions/SolutionsStyles.css';
 import DesarrolloDeAplicaciones from '../../Assets/Images/Solutions/Desarrolo-de-aplicaciones.png';
 import IntegracionDeSistemas from '../../Assets/Images/Solutions/integración-de-sistemas.png';
