@@ -18,8 +18,8 @@ export default class Home extends React.Component{
                     <img src={FondoHEader} alt="navem"/>
                     <div className="container-home-header-info">
                         <div className="container-home-header-info-title">
-                            <p>Desarrolo de <span className={"text-blue"}>Software</span> </p>
-                            <p>e integración de sistemas <span className={"text-blue"}>para todas las medidas</span></p>
+                            <p>Desarrolo de <span className={"text-blue"}>Software</span> e Integración</p>
+                            <p>de Sistemas <span className={"text-blue"}>para todas tus necesidades</span></p>
                         </div>
                         <div className="container-home-header-info-text">
                             <p>Somos una empresa que desarrolla soluciones creativas y a tu medida. Te ahorramos
