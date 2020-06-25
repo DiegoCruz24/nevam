@@ -86,7 +86,7 @@ export default class Sectors extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className={"container-sector-footer"}>
                     <Footer/>
                 </div>
             </div>

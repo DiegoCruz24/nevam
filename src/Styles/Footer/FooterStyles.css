@@ -18,17 +18,15 @@
 }
 .copyright,
 .contact{
-    width: 50%;
-    align-self: flex-end;
-    box-sizing: border-box;
 }
 .copyright{
-    padding: 0 0 20px 110px;
+    width: 100%;
 }
 .copyright p{
     font-family: MontserratLight, sans-serif;
     color: white;
     font-size: 11px;
+    text-align: center;
 }
 .contact p{
     padding: 0 110px 20px 0;
@@ -55,8 +53,8 @@
     }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1799px){
-    .container-footer img{
-        width: 150px;
+    .container-footer-logo img{
+        width: 150px !important;
     }
     .container-footer p{
         font-size: 15px;
