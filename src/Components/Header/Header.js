@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImage from '../../Assets/Images/Fondoheader.jpg';
+import HeaderImage from '../../Assets/Images/fondomenu.jpg';
 import '../../Styles/Header/HeaderStyles.css';
 import LogoNevam from '../../Assets/Images/Logohorizontal.png';
 
