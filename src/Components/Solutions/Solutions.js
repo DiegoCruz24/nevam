@@ -5,7 +5,7 @@ import DesarrolloDeAplicaciones from '../../Assets/Images/Solutions/desarrollo-d
 import IntegracionDeSistemas from '../../Assets/Images/Solutions/integracion-de-sistemas.png';
 import ArquitecturaDeSistemas from '../../Assets/Images/Solutions/consultoria.png';
 import InterfacesGRaficas from '../../Assets/Images/Solutions/desarrollo-de-interfaz.png';
-import InteligenciaDeNegocio from '../../Assets/Images/Solutions/Desarrollo-de-inteligencia-de-negocio.png';
+import InteligenciaDeNegocio from '../../Assets/Images/Solutions/desarrollo-de-inteligencia.png';
 import TecnologiasWeb from '../../Assets/Images/Solutions/desarrollo-de-tecnología.png';
 import RealidadAumentada from '../../Assets/Images/Solutions/realidad-aumentada.png';
 import Footer from "../Footer/Footer";

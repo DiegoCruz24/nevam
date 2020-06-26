@@ -38,7 +38,7 @@
 .container-header-logo-tabs a:hover{
     cursor: pointer;
 }
-.container-header-logo-tabs a:nth-child(1){
+.container-header-logo-tabs a{
     border-right: solid 1px white;
 }
 
@@ -103,14 +103,18 @@
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px){
+    .container-header > img{
+
+    }
     .container-header-logo img{
         left: 10%;
+        width: 200px;
     }
     .container-header-logo-tabs{
         right: 10%;
     }
     .container-header-logo-tabs a{
-        font-size: 13px;
+        font-size: 18px;
     }
 }
 @media only screen and (min-width: 1600px) and (max-width: 2299px){

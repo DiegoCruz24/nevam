@@ -36,10 +36,11 @@ export default class Home extends React.Component{
                         </div>
                     </div>
                 </div>
-
+                <div id="slider"></div>
                 <div className="container-home-slider">
                     <Slider/>
                 </div>
+                <div id="app"></div>
                 <div className="container-home-phoneSection">
                     <PhoneSection/>
                 </div>
@@ -48,6 +49,7 @@ export default class Home extends React.Component{
                 <div className="container-home-solutions" id={"prueba"}>
                     <Solutions/>
                 </div>
+                <div id="sectores"></div>
                 <div className="container-home-sectors">
                     <Sectors/>
                 </div>
