@@ -1,0 +1,91 @@
+.container-sectors{
+    height: auto;
+    position: relative;
+}
+.container-sectors img{
+    width: 100%;
+    max-width: 100%;
+}
+.container-sectors-block{
+    position: absolute;
+    top: 15vh;
+    width: 40%;
+}
+.container-sectors-block-info{
+    width: 80%;
+    float: right;
+}
+.sectors-block-info-title{
+    font-size: 30px;
+    font-family: MontserratBlack, sans-serif;
+    color: #1d6dc2;
+    text-align: right;
+    margin-top: 10px;
+}
+.sectors-block-info-text{
+    font-family: MontserratRegular, sans-serif;
+    color: gray;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 20px;
+}
+.container-sectors-block-images{
+    position: absolute;
+    top: 15vh;
+    width: 50%;
+    right: 0;
+    height: auto;
+}
+.sectors-block-images-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sectors-block-images-wrapper-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectors-block-images-wrapper-menu li{
+    list-style: none;
+    color: white;
+    font-family: MontserratRegular,sans-serif;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.sector-selected-item{
+    color: rgb(2,214,200) !important;
+}
+.sectors-block-images-wrapper-display{
+    position: relative;
+}
+.sectors-block-images-wrapper-display-data{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 400px;
+}
+.sectors-wrapper-display-data-title{
+    font-size: 25px;
+    font-family: MontserratBlack, sans-serif;
+    color: white;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.sectors-wrapper-display-data-text{
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-family: MontserratLight, sans-serif;
+}
+.container-sector-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

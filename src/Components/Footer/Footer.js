@@ -15,10 +15,11 @@ export default class Footer extends React.Component{
                 </div>
                 <div className="copyright" align={"left"}>
                     <p>&copy; 2020 Nevam Software - todos los derechos reservados</p>
-                </div>
-                <div className={"contact"} align={"right"}>
                     <p>contacto@nevamsoft.com</p>
                 </div>
+                {/*<div className={"contact"} align={"right"}>
+
+                </div>*/}
             </div>
         );
     }
