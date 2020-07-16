@@ -8,8 +8,11 @@
 }
 .container-sectors-block{
     position: absolute;
-    top: 15vh;
+    top: 5vh;
     width: 40%;
+}
+.phone-image img{
+    margin-left: 200px;
 }
 .container-sectors-block-info{
     width: 80%;
@@ -31,7 +34,7 @@
 }
 .container-sectors-block-images{
     position: absolute;
-    top: 15vh;
+    top: 5vh;
     width: 50%;
     right: 0;
     height: auto;
@@ -88,4 +91,10 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.foot-page{
+    text-align: right;
+    margin: 10px 0;
+    color: gray;
+    font-weight: 600;
 }

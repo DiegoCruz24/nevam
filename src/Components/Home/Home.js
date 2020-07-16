@@ -17,7 +17,11 @@ export default class Home extends React.Component{
             <div className="container-home">
                 <div className="container-home-header">
                     <Header/>
-                    <img src={FondoHEader} alt="navem"/>
+                    <img
+                        src={FondoHEader}
+                        alt="navem"
+                        className={"home-header-background"}
+                    />
                     <div className="container-home-header-info">
                         <div className="container-home-header-info-title">
                             <p>Desarrollo de <span className={"text-white"}>Software</span></p>

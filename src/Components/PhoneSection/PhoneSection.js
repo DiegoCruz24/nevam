@@ -22,28 +22,29 @@ export default class PhoneSection extends React.Component{
                 <div className="container-phone-section-block right">
                     <div className="inner-block-right">
                         <p className="inner-block-right-title">Reconocimiento facial</p>
-                        <p className="inner-block-right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis corporis ea et illo in ipsa iste magnam</p>
-                        <p className="inner-block-right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid blanditiis corporis ea et illo in ipsa iste magnam</p>
+                        <p className="inner-block-right-text">Integración con cualquier software, gestión en local y en la nube, escalables.</p>
+                        <p className="inner-block-right-text">Reconocimiento en oscuridad, conectividad WIFI, entradas y salidas para el control de acceso</p>
                         <div className="inner-block-right-data">
                             <div className="inner-block-right-data-item">
                                 <img src={User} alt=""/>
                                 <div className="inner-block-right-data-item-info">
-                                    <p className={"item-info-title"}>Titulo 1</p>
-                                    <p className={"item-info-text"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p className={"item-info-title"}>Mayor Seguridad</p>
+                                    <p className={"item-info-text"}>Anti-Falsificación de rostro</p>
                                 </div>
                             </div>
                             <div className="inner-block-right-data-item">
                                 <img src={Speed} alt=""/>
-                                <div className="inner-block-right-data-item-info">
-                                    <p className={"item-info-title"}>Titulo 2</p>
-                                    <p className={"item-info-text"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <div className="inner-block-right-data-item-info" style={{paddingTop: 10 + 'px'}}>
+                                    <p className={"item-info-title"}>Buen rendimiento</p>
+                                    <p className={"item-info-text"}>Duración de reconocer el rostro &#60; 0.2s/ usuario</p>
+                                    <p className={"item-info-text"}>Duración del registro &#60; 3s/ usuario</p>
                                 </div>
                             </div>
                             <div className="inner-block-right-data-item">
                                 <img src={Check} alt=""/>
                                 <div className="inner-block-right-data-item-info">
-                                    <p className={"item-info-title"}>Titulo 3</p>
-                                    <p className={"item-info-text"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p className={"item-info-title"}>Implementación</p>
+                                    <p className={"item-info-text"}>Implementación de despliegue seguro</p>
                                 </div>
                             </div>
                         </div>

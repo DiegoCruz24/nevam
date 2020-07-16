@@ -36,6 +36,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-top: 30px;
 }
 .container-solutions-info-item{
     width: 50%;
