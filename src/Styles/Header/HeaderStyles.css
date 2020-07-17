@@ -8,6 +8,10 @@
 .container-header img{
     width: 100%;
     max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
 }
 .container-header-logo{
     position: relative;
