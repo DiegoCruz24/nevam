@@ -41,50 +41,9 @@ export default class Home extends React.Component{
                             <a href="mailto:nevam@gmail.com">Contactanos</a>
                         </div>
                     </div>
-                    {/*}
-                    <div className="container-home-header-info">
-                        <div className="container-home-header-info-title">
-                            <p>Desarrollo de <span className={"text-white"}>Software</span></p>
-                            <p>e Integración de sistemas</p>
-                            <p><span className={"text-white"}>para todas tus necesidades</span></p>
-                        </div>
-                        <div className="container-home-header-info-text">
-                            <p>Somos una empresa que desarrolla soluciones creativas y a tu medida. Te ahorramos
-                                recursos económicos, tiempo y esfuerzo, y además, te garantizamos soluciones amigables,
-                                fáciles de usar y exclusivas para tu empresa. ¿Te interesa saber mas de nosotros?
-                                contactanos y descubre, sin compromiso, todo lo que podemos hacer por ti.
-                            </p>
-                        </div>
-                        <div className="container-home-header-info-button">
-                            <a href="mailto:nevam@gmail.com">Contactanos</a>
-                        </div>
-                    </div>
 
-                    {/*}
-                    <img
-                        src={FondoHEader}
-                        alt="navem"
-                        className={"home-header-background"}
-                    />
-                    <div className="container-home-header-info">
-                        <div className="container-home-header-info-title">
-                            <p>Desarrollo de <span className={"text-white"}>Software</span></p>
-                            <p>e Integración de sistemas</p>
-                            <p><span className={"text-white"}>para todas tus necesidades</span></p>
-                        </div>
-                        <div className="container-home-header-info-text">
-                            <p>Somos una empresa que desarrolla soluciones creativas y a tu medida. Te ahorramos
-                                recursos económicos, tiempo y esfuerzo, y además, te garantizamos soluciones amigables,
-                                fáciles de usar y exclusivas para tu empresa. ¿Te interesa saber mas de nosotros?
-                                contactanos y descubre, sin compromiso, todo lo que podemos hacer por ti.
-                            </p>
-                        </div>
-                        <div className="container-home-header-info-button">
-                            <a href="mailto:nevam@gmail.com">Contactanos</a>
-                        </div>
-                    </div>*/}
                 </div>
-                {/*
+
                 <div id="slider"></div>
                 <div className="container-home-slider">
                     <Slider/>
@@ -94,11 +53,12 @@ export default class Home extends React.Component{
                 <div className="container-home-phoneSection">
                     <PhoneSection/>
                 </div>
+
                 <div id="servicio"></div>
 
                 <div className="container-home-solutions" id={"prueba"}>
                     <Solutions/>
-                </div>
+                </div>{/*}
                 <div id="sectores"></div>
                 <div className="container-home-sectors">
                     <Sectors/>

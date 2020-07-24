@@ -34,9 +34,9 @@
 .container-home-header{
     width: 100%;
     box-sizing: border-box;
-    position: absolute;
     top: 0;
     left: 0;
+    position: relative;
 }
 .home-header-background{
     width: 100%;
@@ -86,6 +86,13 @@
     padding: 5px 40px;
     font-size: 18px;
     margin: 20px 5px;
+}
+.container-home-slider{
+    margin-top: -4px;
+    width: 100%;
+}
+.container-home-phoneSection{
+    width: 100%;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1350px){

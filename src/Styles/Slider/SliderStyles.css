@@ -60,6 +60,171 @@
 }
 
 /*responsivo*/
+@media only screen and (min-width: 0px) and (max-width: 1350px){
+    .legends{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .legends-title{
+        font-size: 10px !important;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+    .legends-title span{
+        font-size: 12px !important;
+    }
+    .legends-text{
+        font-size: 7px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 3%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 399px){
+    .legends-title{
+        font-size: 12px !important;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+    .legends-title span{
+        font-size: 14px !important;
+    }
+    .legends-text{
+        font-size: 7px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 3%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 499px){
+    .legends-title{
+        font-size: 14px !important;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+    .legends-title span{
+        font-size: 16px !important;
+    }
+    .legends-text{
+        font-size: 9px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 3%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px){
+    .legends-title{
+        font-size: 16px !important;
+        padding-left: 3%;
+        box-sizing: border-box;
+    }
+    .legends-title span{
+        font-size: 18px !important;
+    }
+    .legends-text{
+        font-size: 11px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 3%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 749px){
+    .legends-title{
+        font-size: 18px !important;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 3%;
+    }
+    .legends-title span{
+        font-size: 20px !important;
+    }
+    .legends-text{
+        font-size: 13px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 5%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 899px){
+    .legends-title{
+        font-size: 20px !important;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 4%;
+    }
+    .legends-title span{
+        font-size: 22px !important;
+    }
+    .legends-text{
+        font-size: 15px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 5%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 999px){
+    .legends-title{
+        font-size: 22px !important;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 6%;
+    }
+    .legends-title span{
+        font-size: 24px !important;
+    }
+    .legends-text{
+        font-size: 17px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 5%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
+    .legends-title{
+        font-size: 26px !important;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 6%;
+    }
+    .legends-title span{
+        font-size: 28px !important;
+    }
+    .legends-text{
+        font-size: 22px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 5%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1350px){
+    .legends-title{
+        font-size: 28px !important;
+        padding-left: 5%;
+        box-sizing: border-box;
+        margin-top: 7%;
+    }
+    .legends-title span{
+        font-size: 30px !important;
+    }
+    .legends-text{
+        font-size: 24px;
+        background: rgba(0,0,0,0.5);
+        padding: 3px 5%;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+}
+/*
 @media only screen and (min-width: 0px) and (max-width: 449px) {
     .legends {
         left: 0;
@@ -131,5 +296,5 @@
         font-size: 60px;
         width: 2000px;
     }
-}
+}*/
 /**responsivo**/
