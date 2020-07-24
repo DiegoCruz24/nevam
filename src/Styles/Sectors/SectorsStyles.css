@@ -98,3 +98,438 @@
     color: gray;
     font-weight: 600;
 }
+@media only screen and (min-width: 0px) and (max-width: 1349px){
+    .container-sectors{
+        box-sizing: border-box;
+    }
+    .container-sectors img{
+        width: 100%;
+        max-width: 100%;
+        height: 350px;
+    }
+    .container-sectors-block{
+        top: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .container-sectors-block-info{
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 12px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 8px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 11px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image{
+        position: absolute;
+        left: 0;
+    }
+    .phone-image img{
+        margin: 30px 0 !important;
+        width: 80px;
+        height: 130px;
+    }
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 80px);
+        top: 70px;
+    }
+    .sectors-block-images-wrapper{
+        height: auto;
+    }
+    .sectors-block-images-wrapper-menu{
+        width: 100px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display img{
+        width: 100%;
+        max-width: 100%;
+        height: 150px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 140px;
+        right: 5px;
+        bottom: 10px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 10px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 7px !important;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width: 499px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 100px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 13px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 9px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 12px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 20px 0 !important;
+        width: 80px;
+        height: 130px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 170px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 11px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 8px !important;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 150px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 14px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 9px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 13px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 20px 0 !important;
+        width: 150px;
+        height: 190px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 210px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 12px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 9px !important;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 699px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 200px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 14px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 10px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 13px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 240px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 13px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 799px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 250px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 17px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 11px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 14px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 240px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 13px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 899px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 300px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 19px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 12px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 15px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px 60px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 280px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 13px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 999px){
+    .container-sectors-block-images{
+        right: 0;
+        width: calc(100% - 400px);
+        top: 70px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 20px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 14px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 16px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px 60px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 330px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 15px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 11px !important;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
+    .container-sectors-block-images{
+        right: 100px;
+        width: calc(100% - 500px);
+        top: 90px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 20px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 14px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 16px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px 80px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 350px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 15px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 11px !important;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px){
+    .container-sectors-block-images{
+        right: 150px;
+        width: calc(100% - 650px);
+        top: 90px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 21px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 15px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 17px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px 100px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 350px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 15px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 11px !important;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1350px){
+    .container-sectors-block-images{
+        right: 150px;
+        width: calc(100% - 650px);
+        top: 90px;
+    }
+    .sectors-block-info-title{
+        text-align: left;
+        font-size: 23px;
+        margin: 0 0 0 3%;
+    }
+    .sectors-block-info-text{
+        font-size: 17px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .foot-page{
+        font-size: 19px;
+        text-align: left;
+        margin: 0 0 0 3%;
+    }
+    .phone-image img{
+        margin: 10px 100px !important;
+        width: 160px;
+        height: 200px;
+    }
+    .sectors-block-images-wrapper-menu li{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .sectors-block-images-wrapper-display-data{
+        width: 350px;
+    }
+    .sectors-block-images-wrapper-display-data p{
+        font-size: 15px;
+    }
+    .sectors-wrapper-display-data-text{
+        font-size: 11px !important;
+    }
+}
