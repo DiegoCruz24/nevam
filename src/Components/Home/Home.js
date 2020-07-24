@@ -58,12 +58,12 @@ export default class Home extends React.Component{
 
                 <div className="container-home-solutions" id={"prueba"}>
                     <Solutions/>
-                </div>{/*}
+                </div>
                 <div id="sectores"></div>
                 <div className="container-home-sectors">
                     <Sectors/>
                 </div>
-                <div id="contacto"></div>*/}
+                <div id="contacto"></div>
             </div>
         );
     }

@@ -23,6 +23,7 @@ export default class Solutions extends React.Component{
                     <div className="container-solutions-title">
                         <p><span className="text-blue-solution">Integramos</span> y automatizamos</p>
                         <p>tu empresa y tus <span className="text-blue-solution">servicios</span> </p>
+
                         <div className="container-solutions-info">
                             <div className="container-solutions-info-item">
                                 <div className="container-solutions-info-item-image">
