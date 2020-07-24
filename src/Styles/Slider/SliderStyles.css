@@ -60,22 +60,23 @@
 }
 
 /*responsivo*/
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-    .legend {
-        left: 5%;
+@media only screen and (min-width: 0px) and (max-width: 449px) {
+    .legends {
+        left: 0;
         top: 0;
         padding: 5px;
+        height: auto;
     }
-    .legend-title span{
-        font-size: 20px !important;
+    .legends-title span{
+        font-size: 12px !important;
     }
-    .legend-title{
-        font-size: 14px;
+    .legends-title{
+        font-size: 10px;
     }
-    .legend-text{
-        font-size: 12px;
-        width: 280px;
-        background: rgba(0,0,0,0.7);
+    .legends-text{
+        font-size: 7px;
+        width: 310px;
+        background: rgba(0,0,0,0.5);
         padding: 3px;
         box-sizing: border-box;
     }
