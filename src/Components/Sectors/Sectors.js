@@ -25,7 +25,6 @@ export default class Sectors extends React.Component{
         return(
             <div className={"container-sectors"}>
                 <img src={Image} alt=""/>
-
                 <div className="container-sectors-block">
                     <div className="container-sectors-block-info">
                         <p className="sectors-block-info-title">Sectores</p>

@@ -15,8 +15,10 @@ export default class Home extends React.Component{
     render(){
         return(
             <div className="container-home">
-                <div className="container-home-header">
+                <div className="home-header">
                     <Header/>
+                </div>
+                <div className="container-home-header">
                     <img
                         src={FondoHEader}
                         alt="navem"
@@ -36,18 +38,22 @@ export default class Home extends React.Component{
                             </p>
                         </div>
                         <div className="container-home-header-info-button">
-                            <a href="#contacto">Contactanos</a>
+                            <a href="mailto:nevam@gmail.com">Contactanos</a>
                         </div>
                     </div>
+
                 </div>
+
                 <div id="slider"></div>
                 <div className="container-home-slider">
                     <Slider/>
                 </div>
                 <div id="app"></div>
+
                 <div className="container-home-phoneSection">
                     <PhoneSection/>
                 </div>
+
                 <div id="servicio"></div>
 
                 <div className="container-home-solutions" id={"prueba"}>
