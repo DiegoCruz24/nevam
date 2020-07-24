@@ -9,13 +9,15 @@ export default class Header extends React.Component{
     }
 
     showMenu= ()=>{
-        let menu= document.getElementById('show-hide');
-        if( menu.classList.contains('image-items-menu')){
-            menu.classList.remove('image-items-menu');
-            menu.classList.add('image-items-menu-show');
-        }else{
-            menu.classList.remove('image-items-menu-show');
-            menu.classList.add('image-items-menu');
+        if(window.innerWidth < 901){
+            let menu= document.getElementById('show-hide');
+            if( menu.classList.contains('image-items-menu')){
+                menu.classList.remove('image-items-menu');
+                menu.classList.add('image-items-menu-show');
+            }else{
+                menu.classList.remove('image-items-menu-show');
+                menu.classList.add('image-items-menu');
+            }
         }
     }
 
