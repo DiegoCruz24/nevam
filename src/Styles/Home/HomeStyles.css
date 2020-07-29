@@ -94,29 +94,46 @@
 .container-home-phoneSection{
     width: 100%;
 }
-
+@media only screen and (min-width: 0px) and (max-width: 1099px){
+    .container-home-header{
+        background-image: url('../../Assets/Images/Fondo1.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+    }
+    .container-home-header img{
+        display: none;
+    }
+}
 @media only screen and (min-width: 0px) and (max-width: 1350px){
+
     .container-home-header-info{
         width: 100%;
-        padding-left: 2%;
+        padding: 10px;
+        box-sizing: border-box;
     }
     .container-home-header-info-title p{
-        font-size: 9px;
+        font-size: 3.5vh !important;
     }
     .text-white{
-        font-size: 11px;
+        /*font-size: 25px;*/
+        font-size: 4.5vh !important;
     }
     .container-home-header-info-text{
         margin-top: 0;
-        width: calc(100% - 50px);
+        width: 100%;
     }
-    .container-home-header-info-text p{
-        font-size: 6px;
+    .container-home-header-info-text p {
+        /*font-size: 13px;*/
+        font-size: 2.2vh !important;
+        margin: 10px 0;
+
     }
     .container-home-header-info-button a{
-        font-size: 9px;
+        /*font-size: 15px;*/
+        font-size: 2.5vh !important;
         padding: 5px 15px;
-        margin: 5px;
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 499px){
@@ -192,7 +209,6 @@
     }
     .container-home-header-info-text{
         margin-top: 0;
-        width: calc(100% - 200px);
     }
 }
 @media only screen and (min-width: 900px) and (max-width: 1199px){
@@ -210,9 +226,13 @@
         padding: 5px 15px;
         margin: 10px 5px;
     }
+    .container-home-header-info{
+        width: 100% !important;
+        max-width: 90%;
+    }
     .container-home-header-info-text{
         margin-top: 0;
-        width: calc(100% - 100px);
+        width: 100% !important;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1350px){

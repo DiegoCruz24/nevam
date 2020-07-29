@@ -9,7 +9,7 @@ export default class Header extends React.Component{
     }
 
     showMenu= ()=>{
-        if(window.innerWidth < 901){
+        if(window.innerWidth < 1025){
             let menu= document.getElementById('show-hide');
             if( menu.classList.contains('image-items-menu')){
                 menu.classList.remove('image-items-menu');

@@ -62,6 +62,9 @@
     margin-top: 20px;
     font-weight: 800;
 }
+.sectors-block-images-wrapper-menu li:hover{
+    cursor: pointer;
+}
 .sector-selected-item{
     color: rgb(2,214,200) !important;
 }
