@@ -60,112 +60,78 @@
 }
 
 /*responsivo*/
-@media only screen and (min-width: 0px) and (max-width: 1350px){
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    .slide1 img,
+    .slide2 img,
+    .slide3 img,
+    .slide4 img{
+        display: none !important;
+    }
+    .slide1{
+        background-image: url('../../Assets/Images/Slider/Gimnasio1-fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: 80% 0%;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slide2{
+        background-image: url('../../Assets/Images/Slider/Gimnasio2-fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slide3{
+        background-image: url('../../Assets/Images/Slider/Sala-de-espera-fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slide4{
+        background-image: url('../../Assets/Images/Slider/Torniqueres-fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: 40% 0%;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
     .legends{
-        top: 0;
-        left: 0;
+        position: static;
         width: 100%;
-        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
     }
     .legends-title{
-        font-size: 10px !important;
+        /*font-size: 10px !important;*/
+        font-size: 3.5vh !important;
         padding-left: 3%;
         box-sizing: border-box;
     }
     .legends-title span{
-        font-size: 12px !important;
+        font-size: 4.5vh !important;
     }
     .legends-text{
-        font-size: 7px;
+        font-size: 2vh;
         background: rgba(0,0,0,0.5);
         padding: 3px 3%;
-        box-sizing: border-box;
-        text-align: justify;
-    }
-}
-@media only screen and (min-width: 350px) and (max-width: 399px){
-    .legends-title{
-        font-size: 12px !important;
-        padding-left: 3%;
-        box-sizing: border-box;
-    }
-    .legends-title span{
-        font-size: 14px !important;
-    }
-    .legends-text{
-        font-size: 7px;
-        background: rgba(0,0,0,0.5);
-        padding: 3px 3%;
-        box-sizing: border-box;
-        text-align: justify;
-    }
-}
-@media only screen and (min-width: 400px) and (max-width: 499px){
-    .legends-title{
-        font-size: 14px !important;
-        padding-left: 3%;
-        box-sizing: border-box;
-    }
-    .legends-title span{
-        font-size: 16px !important;
-    }
-    .legends-text{
-        font-size: 9px;
-        background: rgba(0,0,0,0.5);
-        padding: 3px 3%;
-        box-sizing: border-box;
-        text-align: justify;
-    }
-}
-@media only screen and (min-width: 500px) and (max-width: 599px){
-    .legends-title{
-        font-size: 16px !important;
-        padding-left: 3%;
-        box-sizing: border-box;
-    }
-    .legends-title span{
-        font-size: 18px !important;
-    }
-    .legends-text{
-        font-size: 11px;
-        background: rgba(0,0,0,0.5);
-        padding: 3px 3%;
-        box-sizing: border-box;
-        text-align: justify;
-    }
-}
-@media only screen and (min-width: 600px) and (max-width: 749px){
-    .legends-title{
-        font-size: 18px !important;
-        padding-left: 5%;
-        box-sizing: border-box;
-        margin-top: 3%;
-    }
-    .legends-title span{
-        font-size: 20px !important;
-    }
-    .legends-text{
-        font-size: 13px;
-        background: rgba(0,0,0,0.5);
-        padding: 3px 5%;
-        box-sizing: border-box;
-        text-align: justify;
-    }
-}
-@media only screen and (min-width: 750px) and (max-width: 899px){
-    .legends-title{
-        font-size: 20px !important;
-        padding-left: 5%;
-        box-sizing: border-box;
-        margin-top: 4%;
-    }
-    .legends-title span{
-        font-size: 22px !important;
-    }
-    .legends-text{
-        font-size: 15px;
-        background: rgba(0,0,0,0.5);
-        padding: 3px 5%;
         box-sizing: border-box;
         text-align: justify;
     }
@@ -189,17 +155,22 @@
     }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1199px){
+    .legends{
+        top: 2%;
+        left: 5%;
+        width: calc(100% - 100px);
+    }
     .legends-title{
-        font-size: 26px !important;
+        font-size: 3vh !important;
         padding-left: 5%;
         box-sizing: border-box;
         margin-top: 6%;
     }
     .legends-title span{
-        font-size: 28px !important;
+        font-size: 4vh !important;
     }
     .legends-text{
-        font-size: 22px;
+        font-size: 1.4vh;
         background: rgba(0,0,0,0.5);
         padding: 3px 5%;
         box-sizing: border-box;

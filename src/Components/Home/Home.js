@@ -38,7 +38,7 @@ export default class Home extends React.Component{
                             </p>
                         </div>
                         <div className="container-home-header-info-button">
-                            <a href="mailto:nevam@gmail.com">Contactanos</a>
+                            <a href="mailto:nevam@gmail.com">Contáctanos</a>
                         </div>
                     </div>
 

@@ -1,6 +1,7 @@
 {
   "short_name": "Nevam",
   "name": "NEvam Software",
+  "description": "Desarrollo de software e integración de sistemas para todas tus necesidades",
   "icons": [
     {
       "src": "favicon.ico",
