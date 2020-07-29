@@ -77,8 +77,81 @@
 }
 
 /*responsivo*/
-@media only screen and (min-width: 0px) and (max-width: 999px){
+@media only screen and (min-width: 0px) and (max-width: 900px){
     .container-solutions{
+        background-image: url('../../Assets/Images/Solutions/Fondo3.jpg');
+        background-position: 95% 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .container-solutions > img{
+        display: none;
+    }
+    .container-block{
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: flex-start;
+    }
+    .container-solutions-title{
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 50px 5px 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    .container-solutions-title p{
+        font-size: 3vh;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .text-blue-solution{
+        font-size: 4vh;
+        padding-right: 30px;
+    }
+    .container-solutions-info{
+        height: auto;
+        overflow: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 !important;
+        padding-top: 0;
+    }
+    .container-solutions-info-item{
+        flex-direction: column;
+        padding: 3px;
+        box-sizing: border-box;
+        background: rgba(255,255,255,0.7);
+        margin: 5px;
+        width: 33.5vw !important;
+    }
+    .container-solutions-info-item-image{
+        border-radius: 3px;
+        width: 120px;
+        margin: auto;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    .container-solutions-info-item-data{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .data-title{
+        font-size: 2vh;
+        text-align: center !important;
+    }
+    .data-text{
+        font-size: 1.5vh;
+        text-align: justify !important;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 999px){
+    /*.container-solutions{
         width: 100%;
         box-sizing: border-box;
     }
@@ -135,10 +208,10 @@
     .data-text{
         font-size: 9px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 450px) and (max-width: 499px){
-    .container-solutions-title p{
+    /*.container-solutions-title p{
         font-size: 15px;
     }
     .text-blue-solution{
@@ -151,10 +224,10 @@
     .data-text{
         font-size: 11px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 500px) and (max-width: 599px){
-    .container-solutions-info-item-image{
+    /*.container-solutions-info-item-image{
         border-radius: 3px;
         width: 90px;
         margin: auto;
@@ -174,10 +247,10 @@
     .data-text{
         font-size: 12px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 600px) and (max-width: 649px){
-    .container-solutions-info{
+    /*.container-solutions-info{
         height: 200px;
     }
     .container-solutions-title{
@@ -206,10 +279,10 @@
     .data-text{
         font-size: 12px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 650px) and (max-width: 749px){
-    .container-solutions-info{
+    /*.container-solutions-info{
         height: 250px;
     }
     .container-solutions-title{
@@ -238,10 +311,10 @@
     .data-text{
         font-size: 14px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 750px) and (max-width: 949px){
-    .container-solutions-info-item{
+    /*.container-solutions-info-item{
         width: 300px;
     }
     .container-solutions-info{
@@ -273,7 +346,7 @@
     .data-text{
         font-size: 14px !important;
         text-align: justify !important;
-    }
+    }*/
 }
 @media only screen and (min-width: 950px) and (max-width: 999px){
     .container-solutions-info-item-image{

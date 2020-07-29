@@ -31,7 +31,7 @@ export default class Sectors extends React.Component{
                         <p className="sectors-block-info-text">Hemos trabajado para diferentes sectores los cuales tienen visiones distintas, no importan los retos asociados a cada proyecto ya que hemos brindado soluciones de las cuales estamos orgullosos.</p>
                         <p className={"foot-page"}>No importa el problema tenemos la solución</p>
                     </div>
-                    <div className="phone-image">
+                    <div className="phone-image big-screen">
                         <img
                             src={
                                 this.state.actualSector === 'publico' ? Phone1 :
@@ -101,6 +101,18 @@ export default class Sectors extends React.Component{
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div className="small-screen">
+                        <img
+                            src={
+                                this.state.actualSector === 'publico' ? Phone1 :
+                                    this.state.actualSector === 'privado' ? Phone2 :
+                                        this.state.actualSector === 'financiero' ? Phone3 :
+                                            this.state.actualSector === 'educativo' ? Phone4 :
+                                                this.state.actualSector === 'deportivo' ? Phone2 : Phone1
+                            }
+                            alt=""
+                        />
                     </div>
                 </div>
                 <div className={"container-sector-footer"}>
