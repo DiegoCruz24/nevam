@@ -55,7 +55,7 @@ export default class Slider extends React.Component{
                width={"100%"}
                interval={6000}
            >
-               <div>
+               <div className={"slide1"}>
                    <img src={Image1} />
                    <div className={"legends"}>
                        <p className={"legends-title"}><span>Gimnasios</span> a la medida</p>
@@ -71,7 +71,7 @@ export default class Slider extends React.Component{
                        </p>
                    </div>
                </div>
-               <div>
+               <div className={"slide2"}>
                    <img src={Image2} />
                    <div className={"legends"}>
                        <p className={"legends-title"}><span>Gimnasios</span> VIP</p>
@@ -87,7 +87,7 @@ export default class Slider extends React.Component{
                            grandes resultados.</p>
                    </div>
                </div>
-               <div>
+               <div className={"slide3"}>
                    <img src={Image3} />
                    <div className={"legends"}>
                        <p className={"legends-title"}><span>Salas de espera</span> innovadoras</p>
@@ -102,7 +102,7 @@ export default class Slider extends React.Component{
                            obtener mejores resultados en cualquier tiempo.</p>
                    </div>
                </div>
-               <div>
+               <div className={"slide4"}>
                    <img src={Image4} />
                    <div className={"legends"}>
                        <p className={"legends-title"}><span>Torniquetes</span> Inteligentes</p>
