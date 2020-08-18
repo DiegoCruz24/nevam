@@ -18,6 +18,11 @@ export default class Sectors extends React.Component{
         super(props);
         this.state = {
             actualSector: 'publico',
+            publicDesc: 'Las necesidades de una información tansparente y ágil crecen exponencialmente cada día. En Nevam nos preocupamos por la integridad, funcionalidad y calidad de nuestro software para el sector público. ',
+            privateDesc: 'Cada empresa tiene sus propias problemáticas. Nosotros entendemos esas problemáticas, te escuchamos. Por ello ofrecemos un desarrollo robusto, eficiente y a la medida para PYMES y grandes empresas',
+            financialDesc: 'El sector financiero cada vez utiliza nuevas estrategias para la resolución de determinados problemas. En Nevam, estamos a la vanguardia con desarrollos para el sector financiero utilizando los métodos más sofisticados y calificados.',
+            eduDesc:'La educación evoluciona a tal grado que la distancia ya no es un factor para aprender. Nosotros entendemos la importancia del saber y contamos con desarrollos a la medida para el aprendizaje y control de escuelas.',
+            sportDesc: 'Tu cuerpo, tu bienestar, tu salud. La gente de Nevam siempre a favor y por ello focalizamos soluciones para centros deportivos, siempre un paso adelante de la meta.'
         }
     }
 
@@ -92,11 +97,11 @@ export default class Sectors extends React.Component{
                                 </p>
                                 <p className="sectors-wrapper-display-data-text">
                                     {
-                                        this.state.actualSector === 'publico' ? 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet animi architecto blanditiis, delectus deserunt dolores eos facere fugit itaque laudantium minus neque odit qui repudiandae similique vitae! Praesentium.':
-                                            this.state.actualSector === 'privado' ? 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet animi architecto blanditiis, delectus deserunt dolores eos facere fugit itaque laudantium minus neque odit qui repudiandae similique vitae! Praesentium.':
-                                                this.state.actualSector === 'financiero' ? 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet animi architecto blanditiis, delectus deserunt dolores eos facere fugit itaque laudantium minus neque odit qui repudiandae similique vitae! Praesentium.':
-                                                    this.state.actualSector === 'educativo' ? 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet animi architecto blanditiis, delectus deserunt dolores eos facere fugit itaque laudantium minus neque odit qui repudiandae similique vitae! Praesentium.':
-                                                        this.state.actualSector === 'deportivo' ? 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet animi architecto blanditiis, delectus deserunt dolores eos facere fugit itaque laudantium minus neque odit qui repudiandae similique vitae! Praesentium.': ''
+                                        this.state.actualSector === 'publico' ? this.state.publicDesc:
+                                            this.state.actualSector === 'privado' ? this.state.privateDesc:
+                                                this.state.actualSector === 'financiero' ? this.state.financialDesc:
+                                                    this.state.actualSector === 'educativo' ? this.state.eduDesc:
+                                                        this.state.actualSector === 'deportivo' ? this.state.sportDesc: ''
                                     }
                                 </p>
                             </div>
